@@ -5,31 +5,64 @@
   <meta charset="utf-8">
   <title>Guilherme Alves</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 
 <body>
-  <div class="card">
-    <div class="image">
-      <img src="img/persona.jpg" />
-    </div>
-    <div class="details">
-      <div class="center">
-        <h1>Guilherme Alves<br><span>Full-Stack Developer</span></h1>
-        <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
-        <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
-        <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
-        <ul>
-          <li><a href="https://www.facebook.com/guiigos.alves"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/guiigos"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.instagram.com/guiigos.alves/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="guiigos.alves@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
-        </ul>
+  <div id="wrapper">
+    <div id="content">
+      <div id="card">
+        <div id="front">
+          <div id="arrow"><i class="fa fa-arrow-left"></i></div>
+          <div id="top-pic"></div>
+          <div id="avatar"></div>
+          <div id="info-box">
+            <div class="info">
+              <h1>Guilherme Alves</h1>
+              <h2>Full-Stack Developer</h2>
+            </div>
+          </div>
+          <div id="social-bar">
+            <a href="https://www.facebook.com/guiigos.alves" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/guiigos" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/guiigos.alves" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="mailto:guiigos.alves@gmail.com"><i class="fa fa-envelope-o"></i></a>
+            <a href="https://docs.google.com/viewer?url=http://guiigos.com.br/assets/curriculo.pdf" target="_blank"><i class="fa fa-briefcase"></i></a>
+
+            <a href="javascript:void" class="more-info">
+            <i class="fa fa-user"></i>
+          </a>
+          </div>
+        </div>
+        <div id="back">
+          <div class="back-info">
+            <p></p>
+          </div>
+          <div id="social-bar">
+            <a href="https://www.facebook.com/guiigos.alves" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/guiigos" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/guiigos.alves" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="mailto:guiigos.alves@gmail.com"><i class="fa fa-envelope-o"></i></a>
+            <a href="https://docs.google.com/viewer?url=http://guiigos.com.br/assets/curriculo.pdf" target="_blank"><i class="fa fa-briefcase"></i></a>
+
+            <a href="javascript:void" class="more-info"><i class="fa fa-undo"></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="background">
+        <div id="background-image"></div>
       </div>
     </div>
   </div>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
