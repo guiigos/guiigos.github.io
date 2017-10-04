@@ -134,13 +134,6 @@ body h2 {
     border-radius: 5px;
 }
 
-
-/*#card #front #social-bar a:hover {
-    color: #2f7703;
-    background: rgba(255, 255, 255, 0.3);
-    transition: .25s ease-in-out;
-}*/
-
 #card #back {
     transform: rotateY(180deg);
     background-color: rgba(255, 255, 255, 0.6);
@@ -152,7 +145,7 @@ body h2 {
 }
 
 #card #back .back-info {
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
 }
 
@@ -175,13 +168,6 @@ body h2 {
     padding: 5px;
     border-radius: 5px;
 }
-
-
-/*#card #back #social-bar a:hover {
-    color: #2f7703;
-    background: rgba(139, 165, 123, 0.5);
-    transition: .25s ease-in-out;
-}*/
 
 #card .info {
     display: table-cell;

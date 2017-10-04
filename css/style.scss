@@ -1,6 +1,7 @@
 $bg: url('../img/background.jpg');
 $ps: url('../img/persona.jpg');
 $cl: #62ff00;
+
 * {
     box-sizing: border-box;
     transition: .5s ease-in-out;
@@ -117,11 +118,7 @@ body {
                 text-decoration: none;
                 padding: 5px;
                 line-height: 18px;
-                border-radius: 5px; // &:hover {
-                //     color: darken($cl, 10);
-                //     background: rgba(255, 255, 255, 0.3);
-                //     transition: .25s ease-in-out;
-                // }
+                border-radius: 5px;
             }
         }
     }
@@ -134,7 +131,7 @@ body {
         line-height: 20px;
         padding: 50px;
         .back-info {
-            text-align: justify;
+            text-align: center;
             text-justify: inter-word;
         }
         #social-bar {
@@ -152,11 +149,7 @@ body {
                 color: $cl;
                 text-decoration: none;
                 padding: 5px;
-                border-radius: 5px; // &:hover {
-                //     color: darken($cl, 10);
-                //     background: rgba(139, 165, 123, 0.5);
-                //     transition: .25s ease-in-out;
-                // }
+                border-radius: 5px;
             }
         }
     }
