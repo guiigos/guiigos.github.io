@@ -1,0 +1,8 @@
+# folders
+.sass-cache/
+.vscode/
+
+# files
+*.log
+*.css.map
+*.DS_Store
