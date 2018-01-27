@@ -2,7 +2,7 @@
 > :space_invader: Quem sou eu?
 
 
-## Scss
+## Processar SCSS
 ```bash
 $ sass css/style.scss:css/style.css --sourcemap=none --watch
 ```
