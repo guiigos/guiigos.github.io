@@ -1,12 +1,12 @@
 # guiigos.github.io
-> :space_invader: Quem sou eu?
+> :space_invader: Quem sou eu e o que faço.
 
 
-## Processar SCSS
+## Compiler SCSS
 ```bash
-# instalando
+# install
 $ sudo gem install sass
 
-# executando
+# running
 $ sass css/style.scss:css/style.css --sourcemap=none --watch
 ```
