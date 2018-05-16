@@ -1,10 +1,12 @@
-$(window).load(function () {
-    $('#wrapper').addClass('loaded');
+$(window).on("load", () => {
+  $('#wrapper').addClass('loaded');
 });
-$('.more-info').click(function () {
-    $("#card").toggleClass('flip');
-    $('#arrow').remove();
+
+$('.more-info').click(() => {
+  $("#card").toggleClass('flip');
+  $('#arrow').remove();
 });
-$('#background').click(function () {
-    $('#card').removeClass('flip');
+
+$('#background').click(() => {
+  $('#card').removeClass('flip');
 });
