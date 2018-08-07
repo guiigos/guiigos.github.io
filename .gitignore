@@ -1,11 +1,18 @@
-# folders
+# Folders
 .sass-cache/
-.vscode/
-$RECYCLE.BIN/
 
-# files
+# Files
 *.log
 *.tmp
 *.tmp.*
 *.css.map
-*.DS_Store
+*.sass.map
+*.scss.map
+
+# OS
+._*
+.DS_Store
+.DS_Store?
+.Trashes
+ehthumbs.db
+Thumbs.db
