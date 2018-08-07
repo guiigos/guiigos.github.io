@@ -5,7 +5,7 @@
 
   $('.more-info').click(function () {
     $("#card").toggleClass('flip');
-    $('#arrow').remove();
+    $('.arrow').remove();
   });
 
   $('#background').click(function () {
