@@ -1,10 +1,10 @@
 (function () {
-  $(window).on("load", function () {
+  $(window).on('load', function () {
     $('#wrapper').addClass('loaded');
   });
 
   $('.more-info').click(function () {
-    $("#card").toggleClass('flip');
+    $('#card').toggleClass('flip');
     $('.arrow').remove();
   });
 
