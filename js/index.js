@@ -1,12 +1,14 @@
-$(window).on("load", () => {
-  $('#wrapper').addClass('loaded');
-});
+(function () {
+  $(window).on("load", function () {
+    $('#wrapper').addClass('loaded');
+  });
 
-$('.more-info').click(() => {
-  $("#card").toggleClass('flip');
-  $('#arrow').remove();
-});
+  $('.more-info').click(function () {
+    $("#card").toggleClass('flip');
+    $('#arrow').remove();
+  });
 
-$('#background').click(() => {
-  $('#card').removeClass('flip');
-});
+  $('#background').click(function () {
+    $('#card').removeClass('flip');
+  });
+})();
