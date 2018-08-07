@@ -1,8 +1,11 @@
 # folders
 .sass-cache/
 .vscode/
+$RECYCLE.BIN/
 
 # files
 *.log
+*.tmp
+*.tmp.*
 *.css.map
 *.DS_Store
