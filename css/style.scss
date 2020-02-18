@@ -1,6 +1,7 @@
 $bg: url('../img/background.jpg');
 $ps: url('https://avatars2.githubusercontent.com/u/6471538');
-$cl: #62FF00;
+$clf: #62FF00;
+$clb: #2F7305;
 
 * {
     box-sizing: border-box;
@@ -132,7 +133,7 @@ h2 {
           text-align: center;
 
           a {
-              color: $cl;
+              color: $clf;
               padding: 5px;
               border-radius: 5px;
               line-height: 18px;
@@ -167,7 +168,7 @@ h2 {
           text-align: center;
 
           a {
-              color: $cl;
+              color: $clb;
               padding: 5px;
               border-radius: 5px;
               line-height: 18px;
