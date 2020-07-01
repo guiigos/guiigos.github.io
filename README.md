@@ -1,5 +1,5 @@
 # guiigos.github.io
-> :space_invader: Who I am and what I do.
+> :space_invader: Who I am and what I do
 
 
 ## Compiler SCSS
