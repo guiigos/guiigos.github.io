@@ -5,8 +5,11 @@
 
 ```bash
 # install
-$ sudo gem install sass
+$ npm install -g sass
 
 # running
-$ sass css/style.scss:css/style.css --sourcemap=none --watch
+$ sass ./scss/style.scss ./css/style.css
+
+# watching
+$ sass ./scss/style.scss ./css/style.css
 ```

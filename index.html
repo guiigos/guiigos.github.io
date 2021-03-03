@@ -7,42 +7,49 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <!-- internal -->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <div id="wrapper">
-    <div id="content">
-      <div id="card">
-        <div id="front">
+  <div class="wrapper">
+    <div class="content">
+      <div class="card">
+
+        <div class="card-front">
           <div class="arrow">
-            <i class="fa fa-arrow-left"></i>
+            <i class="fas fa-arrow-left"></i>
           </div>
+
           <div class="picture"></div>
           <div class="avatar"></div>
 
-          <div class="front-info">
-            <div class="front-info-content">
+          <div class="description">
+            <div class="description-content">
               <h1>Guilherme Alves</h1>
               <h2>Front-End Developer</h2>
             </div>
           </div>
 
-          <div class="front-info-social">
-            <a href="https://www.facebook.com/guiigos.alves" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
+          <div class="info-social">
             <a href="https://github.com/guiigos" target="_blank">
-              <i class="fa fa-github"></i>
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/guiigos" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/guiigos.alves" target="_blank">
+              <i class="fab fa-facebook"></i>
             </a>
             <a href="https://www.instagram.com/guiigos.alves" target="_blank">
-              <i class="fa fa-instagram"></i>
+              <i class="fab fa-instagram"></i>
             </a>
             <a href="mailto:guiigos.alves@gmail.com">
-              <i class="fa fa-envelope-o"></i>
+              <i class="fas fa-envelope"></i>
             </a>
             <a href="https://docs.google.com/viewer?url=http://guiigos.com.br/assets/curriculo.pdf" target="_blank">
               <i class="fa fa-briefcase"></i>
@@ -53,28 +60,31 @@
           </div>
         </div>
 
-        <div id="back">
-          <div class="back-info">
+        <div class="card-back">
+          <div class="info">
             <p>
               Formado em <strong>Sistemas de Informação</strong> e pós-graduado em <strong>Desenvolvimento de Aplicações Para Dispositivos Móveis</strong>,
               sou um profissional que busca constantemente novos desafios, sou organizado, responsável, comunicativo e entusiasta
-              de novas tecnologias. Possuo experiência atuando como desenvolvedor e analista de sistemas.
+              de novas tecnologias. Possuo experiência atuando como desenvolvedor e analista de sistemas. Atualmente atuo como <strong>Scrum Master</strong> e desenvolvedor <strong>Front-End</strong> JavaScript.
               Se você procura um profissional com estes diferenciais entre em contato.
             </p>
           </div>
 
-          <div class="back-info-social">
-            <a href="https://www.facebook.com/guiigos.alves" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
+          <div class="info-social">
             <a href="https://github.com/guiigos" target="_blank">
-              <i class="fa fa-github"></i>
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/guiigos" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/guiigos.alves" target="_blank">
+              <i class="fab fa-facebook"></i>
             </a>
             <a href="https://www.instagram.com/guiigos.alves" target="_blank">
-              <i class="fa fa-instagram"></i>
+              <i class="fab fa-instagram"></i>
             </a>
             <a href="mailto:guiigos.alves@gmail.com">
-              <i class="fa fa-envelope-o"></i>
+              <i class="fas fa-envelope"></i>
             </a>
             <a href="https://docs.google.com/viewer?url=http://guiigos.com.br/assets/curriculo.pdf" target="_blank">
               <i class="fa fa-briefcase"></i>
@@ -89,11 +99,15 @@
       <div id="background">
         <div id="background-image"></div>
       </div>
+
     </div>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/index.js"></script>
+  <!-- cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- internal -->
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
