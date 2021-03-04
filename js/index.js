@@ -11,4 +11,4 @@
   $('#background').click(function () {
     $('.card').removeClass('flip');
   });
-})()
+})();
