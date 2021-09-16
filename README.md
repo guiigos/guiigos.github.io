@@ -4,12 +4,6 @@
 ## Compiler SCSS
 
 ```bash
-# install
-$ npm install -g sass
-
 # running
-$ sass ./scss/style.scss ./css/style.css
-
-# watching
-$ sass ./scss/style.scss ./css/style.css
+$ npx sass ./scss/style.scss ./css/style.css --watch
 ```
