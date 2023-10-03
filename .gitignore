@@ -1,19 +1,21 @@
-# temp
+# Temp
 *.tmp
 *.tmp.*
 
-# log
+# Logs
 *.log
 *.log.*
+npm-debug.log*
 
-# sass
+# Sass
 .sass-cache
 *.css.map
 *.sass.map
 *.scss.map
 
-# macos
+# MacOs
 ._*
+.DS_*
 .DS_Store
 .DS_Store?
 .Trashes
