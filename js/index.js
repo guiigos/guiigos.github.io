@@ -1,14 +1,14 @@
 (function () {
-  $(window).on('load', function () {
-    $('.wrapper').addClass('loaded');
+  $(window).on("load", function () {
+    $(".wrapper").addClass("loaded");
   });
 
-  $('.more-info').click(function () {
-    $('.card').toggleClass('flip');
-    $('.arrow').remove();
+  $(".more-info").click(function () {
+    $(".card").toggleClass("flip");
+    $(".arrow").remove();
   });
 
-  $('#background').click(function () {
-    $('.card').removeClass('flip');
+  $("#background").click(function () {
+    $(".card").removeClass("flip");
   });
 })();
